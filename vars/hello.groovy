@@ -1,4 +1,5 @@
-def hello()
-{
-  echo "Hello this is coming from Github Lib"
+// vars/hello.groovy
+@NonCPS
+def call() {
+    echo "Hello from the shared library!"
 }
